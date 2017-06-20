@@ -1,0 +1,224 @@
+@CHARSET "UTF-8";
+
+@font-face{
+	font-family: NanumGothicFont;
+	src: url(../font/NANUMGOTHIC.TTF);
+}
+
+@font-face{
+	font-family: NanumGothicFont;
+	src: url(../font/NANUMGOTHICEXTRABOLD.TTF);
+	font-weight: bold;
+}
+
+#emp, #acad, #career, #lic{
+	width: 680px;
+}
+
+#emp{
+	margin-bottom: 40px;
+}
+
+#wrap{
+	width: 1200px;
+	height: 800px;
+	margin: 0px auto;
+}
+
+#content{
+	width: 900px;
+	padding-top: 40px;
+	padding-left: 30px;
+	float: left;
+}
+
+#title{
+	display: inline-block;
+	color: #555555;
+	font-size: 15pt;
+	font-weight: bold;
+	margin: 10px;
+}
+
+.small_title{
+	display: block;
+	color: #444444;
+	font-size: 13pt;
+	font-weight: bold;
+	margin: 5px;
+}
+
+table{
+	border-collapse: collapse;
+	font-size: 10pt;
+	border-top: 2px solid #e4e4e4;
+}
+
+td{
+	border-bottom: 1px solid #e4e4e4;
+	padding: 5px;
+	margin: 0px;
+}
+
+#top{
+	border-top: 2px solid #e4e4e4;
+}
+
+#img_d{
+	height: 160px;
+	width: 680px;
+	border: none;
+	margin: 0px;
+	padding: 10px;
+	text-align: center;
+}
+
+#img_profile{
+	width: 120px;
+	height: 120px;
+}
+
+#img_btn{
+	margin-top: 10px;
+}
+
+.sub_title{
+	background-color: #f4f4f4;
+}
+
+.right{
+	text-align: right;
+}
+
+.num{
+	font-size: 13px;
+	padding-left: 20px;
+}
+
+.info{
+	text-align: center;
+	background-color: #f4f4f4;
+}
+
+#acad>form>table, #career>form>table,
+#lic>form>table, #proj>form>table, #skill>form>table{
+	margin-bottom: 20px;
+}
+
+#emp .info{
+	width: 140px;
+}
+
+#basic .input{
+	width: 520px;
+}
+
+#acad .info{
+	width: 140px;
+}
+
+#acad .input{
+	width: 520px;
+}
+
+#career .info{
+	width: 140px;
+}
+
+#career .input{
+	width: 185px;
+}
+
+#lic .info{
+	width: 140px;
+}
+
+#lic .input{
+	width: 185px;
+}
+
+#proj .info{
+	width: 140px;
+}
+
+#proj .input{
+	width: 520px;
+}
+
+#skill .info{
+	width: 140px;
+}
+
+#skill .input{
+	width: 520px;
+}
+
+#input_btn{
+	width: 680px;
+	padding: 10px;
+	text-align: center;
+	border: none;
+}
+
+#fix_btn{
+	padding: 10px;
+	text-align: right;
+	border: none;
+}
+
+.div_next{
+	text-align: right;
+	padding-right: 10px;
+	width: 660px;
+}
+
+textarea{
+	overflow-y: scroll;
+    resize: none;
+    border: 2px solid #dadada;
+}
+
+.comment{
+	display: block;
+	margin: 6px;
+	font-size: 8pt;
+}
+
+.show{
+	background-color: #fff;
+	border-color: #000;
+	border-width: 1px 1px 0px 1px;
+}
+
+ul{
+	list-style: none;
+	padding: 0px;
+}
+
+ul li{
+	text-decoration: none;	
+	background-color: #cacaca;
+	border: #b7b7b7 solid 1px;
+	float: left;
+}
+
+#tab_list a{
+	text-decoration: none;
+	color: #888888;
+	font-size: 10pt;
+	margin: 5px;
+}
+
+.active{
+	background-color: #fff;
+	border-width: 1px 1px 0px 1px;
+}
+
+#tab_container{
+	clear: left;
+	padding-top: 10px;
+}
+
+/* input[type='text'], input[type='date'], input[type='number'], input[type='password'], select, textarea{
+	border: 2px solid #dadada;
+} */

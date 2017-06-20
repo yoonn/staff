@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+
+@font-face{
+	font-family: NanumGothicFont;
+	src: url(../font/NANUMGOTHIC.TTF);
+}
+
+@font-face{
+	font-family: NanumGothicFont;
+	src: url(../font/NANUMGOTHICEXTRABOLD.TTF);
+	font-weight: bold;
+}
+
+#wrap{
+	text-align: center;
+	margin: 0px auto;
+	margin-top: 200px;
+}
+
+#login_title{
+	color: #fea434;
+	font-size: 70pt;
+	font-weight: bold;
+	display: block;
+}
+
+#login_form input{	
+	border: 5px solid #fea434;
+	font-size: 10pt;
+	margin: 5px;
+	outline: none;
+	padding: 5px;
+}
+
+#admin_form{
+	margin: 5px;
+}
+
+#admin_form label{
+	font-weight: bold;
+	color: #555555;
+	font-size: 12pt;
+}
+
+#btn_form{
+	margin: 10px;
+}
+
+#login_btn{
+	cursor: default;
+}

@@ -1,0 +1,61 @@
+@CHARSET "UTF-8";
+
+@font-face{
+	font-family: NanumGothicFont;
+	src: url(../font/NANUMGOTHIC.TTF);
+}
+
+@font-face{
+	font-family: NanumGothicFont;
+	src: url(../font/NANUMGOTHICEXTRABOLD.TTF);
+	font-weight: bold;
+}
+
+#header_space{
+	width: 1200px;
+	height: 50px;
+	margin: 0px;
+	padding: 10px;
+}
+
+/* header */
+#header_login{
+	display: inline-block;
+	height: 35px;
+	width: 172px;
+	padding: 3px;
+	margin-left: 580px;
+}
+
+#header_title{
+	width: 400px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+#header_title > a{
+	font-size: 25pt;
+	letter-spacing: -3px;
+	font-weight: bold;
+	line-height: 50px;
+	text-decoration: none;
+	color: black;
+}
+
+#login_info, #logout{
+	display: inline-block;
+	height: 30px;
+	background-color: #ffffff;
+	font-size: 13pt;
+}
+
+#login_name, #logout_btn{
+	vertical-align: middle;
+}
+
+#img_login{
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+}

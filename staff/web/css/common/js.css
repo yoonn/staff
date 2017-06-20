@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+
+@font-face{
+	font-family: NanumGothicFont;
+	src: url(../font/NANUMGOTHIC.TTF);
+}
+
+@font-face{
+	font-family: NanumGothicFont;
+	src: url(../font/NANUMGOTHICEXTRABOLD.TTF);
+	font-weight: bold;
+}
+
+.required_input{
+	border: 2px solid #ff8484;
+}
+
+.required_span{
+	color: red;
+}
+
+.fill_input{
+	border: 2px solid #dadada;
+}

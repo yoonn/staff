@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+
+@font-face{
+	font-family: NanumGothicFont;
+	src: url(../font/NANUMGOTHIC.TTF);
+}
+
+@font-face{
+	font-family: NanumGothicFont;
+	src: url(../font/NANUMGOTHICEXTRABOLD.TTF);
+	font-weight: bold;
+}
+
+/* footer */
+#footer{
+	clear: left;
+	width: 1200px;
+}
+#copyright{
+	padding-top: 40px;
+	padding-bottom : 60px;
+	text-align: center;
+	font-size: 10px;
+	color: #7d7d7d;
+	
+}
